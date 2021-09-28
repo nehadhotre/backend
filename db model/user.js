@@ -7,7 +7,7 @@ let userSchema=new Schema({
     MobileNo:{type:String,required:true}
 });
 let userModel=mongoose.model("users",userSchema);
-var v1 = new userModel({ UserName: 'xyz', EmailId: 'xyz@gmail.com', MobileNo:  '12345622'});
+var v1 = new userModel({ UserName: 'xz', EmailId: 'xz@gmail.com', MobileNo:  '142345622'});
 v1.save();
 module.exports=userModel;
 
